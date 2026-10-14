@@ -17,3 +17,8 @@ choice = input("Enter your choice: ")
 while choice not in menu:
     print("Invalid choice")
     choice = input("Enter your choice: ")
+
+if choice == "1":
+    decimal_number = int(input("Enter a decimal number: "))
+    binary_number = bin(decimal_number)[2:]
+    print(f"Binary representation: {binary_number}")
