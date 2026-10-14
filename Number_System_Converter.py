@@ -8,3 +8,8 @@ menu = {
     "7": "View History",
     "8": "Exit"
 }
+
+for key, value in menu.items():
+    print(key, value)
+
+choice = input("Enter your choice: ")
