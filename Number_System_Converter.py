@@ -22,3 +22,7 @@ if choice == "1":
     decimal_number = int(input("Enter a decimal number: "))
     binary_number = bin(decimal_number)[2:]
     print(f"Binary representation: {binary_number}")
+elif choice == "2":
+    decimal_number = int(input("Enter a decimal number: "))
+    octal_number = oct(decimal_number)[2:]
+    print(f"Octal representation: {octal_number}")
