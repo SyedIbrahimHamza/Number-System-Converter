@@ -13,3 +13,7 @@ for key, value in menu.items():
     print(key, value)
 
 choice = input("Enter your choice: ")
+
+while choice not in menu:
+    print("Invalid choice")
+    choice = input("Enter your choice: ")
