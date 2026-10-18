@@ -30,3 +30,7 @@ elif choice == "3":
     decimal_number = int(input("Enter a decimal number: "))
     hexadecimal_number = hex(decimal_number)[2:].upper()
     print(f"Hexadecimal representation: {hexadecimal_number}")  
+elif choice == "4":
+    binary_number = input("Enter a binary number: ")
+    decimal_number = int(binary_number, 2)
+    print(f"Decimal representation: {decimal_number}")
